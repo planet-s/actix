@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["SystemRegistry","Actors registry"]],"trait":[["SystemService","Trait defines system's service."]]});
