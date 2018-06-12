@@ -39,13 +39,13 @@ actix_derive = "0.2"
 # io
 bytes = "0.4"
 futures = "0.1"
-tokio = { git = "https://github.com/redox-os/tokio" }
-tokio-io = { git = "https://github.com/redox-os/tokio" }
-tokio-executor = { git = "https://github.com/redox-os/tokio" }
-tokio-reactor = { git = "https://github.com/redox-os/tokio" }
-tokio-tcp = { git = "https://github.com/redox-os/tokio" }
-tokio-timer = { git = "https://github.com/redox-os/tokio" }
-tokio-threadpool = { git = "https://github.com/redox-os/tokio" }
+tokio = { git = "https://gitlab.redox-os.org/redox-os/tokio" }
+tokio-io = { git = "https://gitlab.redox-os.org/redox-os/tokio" }
+tokio-executor = { git = "https://gitlab.redox-os.org/redox-os/tokio" }
+tokio-reactor = { git = "https://gitlab.redox-os.org/redox-os/tokio" }
+tokio-tcp = { git = "https://gitlab.redox-os.org/redox-os/tokio" }
+tokio-timer = { git = "https://gitlab.redox-os.org/redox-os/tokio" }
+tokio-threadpool = { git = "https://gitlab.redox-os.org/redox-os/tokio" }
 
 # other
 log = "0.4"
@@ -57,10 +57,10 @@ libc = { version = "0.2" }
 uuid = { version = "0.6", features = ["v4"] }
 
 # signal handling
-tokio-signal = { git = "https://github.com/redox-os/tokio-signal", optional = true }
+tokio-signal = { git = "https://gitlab.redox-os.org/redox-os/tokio-signal", optional = true }
 
 # dns resolver
-trust-dns-resolver = { git = "https://github.com/redox-os/trust-dns", optional = true }
+trust-dns-resolver = { git = "https://gitlab.redox-os.org/redox-os/trust-dns", optional = true }
 
 [profile.release]
 lto = true
